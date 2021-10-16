@@ -1,1 +1,1 @@
-# -java-sv2-daily-labs02
+A Struktúraváltás 2.0 tananyaghoz tartozó konzultációkon kiadott 2. heti feladataim.
