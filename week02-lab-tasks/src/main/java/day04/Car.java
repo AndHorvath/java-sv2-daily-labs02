@@ -24,10 +24,10 @@ public class Car {
 
     // --- public methods -----------------------------------------------------
 
-    public double calcAvgConsumption(int kilometersDriven) {
+    public double calcAvgConsumption() {
         double avgConsumption;
 
-        avgConsumption = (double) this.litresRefuelled / (double) kilometersDriven * 100.0;
+        avgConsumption = (double)this.litresRefuelled / (double)this.kilometresDriven * 100.0;
         return avgConsumption;
     }
 }

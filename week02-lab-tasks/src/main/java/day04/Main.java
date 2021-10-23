@@ -26,7 +26,7 @@ public class Main {
         car = new Car(0, kilometresDriven);
         gasStation = new GasStation(priceLitre);
         pricePaid = gasStation.refuel(car, litresRefuelled);
-        avgConsumption = car.calcAvgConsumption(kilometresDriven);
+        avgConsumption = car.calcAvgConsumption();
 
         System.out.println("You have paid: " + pricePaid + " HUF");
         System.out.println("The average consumption of the car is: " + avgConsumption + " per 100 km");
